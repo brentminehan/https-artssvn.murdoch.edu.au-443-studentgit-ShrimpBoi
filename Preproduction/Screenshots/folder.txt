@@ -1,0 +1,9 @@
+This is a folder for your preproduction package
+Concept - any concept art to describe your game aesthetic
+Design - your quick mechanics/game design doc, your personas, and design pillars
+Misc - anything that doesnt fit in another category
+Moodboards - moodboards to get the aesthetic feel (based on personas)
+Prototype - commit a playable demo (exe + data)
+Screenshots - mockup screenshots of what the game could look like
+StyleGuide - preliminary style guidelines for art and ui to keep things consistent
+Unused - anything that was made but not used.
