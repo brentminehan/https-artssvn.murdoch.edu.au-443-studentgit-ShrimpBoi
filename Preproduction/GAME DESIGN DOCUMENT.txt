@@ -1,0 +1,177 @@
+Game Design Document:
+=====================
+
+This is an example 'template', but don't feel you have to keep to this format or anything - it's really just a breakdown of the major design sections so that you don't forget anything. You may have more sections, or you might want to delete / rename sections - it's totally up to you. The main objective is to CONVEY your game design, and some detail about how it will be done - for instance explaining the art style or the flow of a level.
+
+Team Members:
+-------------
+
+	List your team members here.
+
+Overview:
+---------
+	What kind of game is this? What is the setting? 
+	
+	Objectives:
+		What is/are the goal(s)?
+	Story:
+		You may also have a 'Story / Plot / Narrative' entry here (take your pick), but keep it short - we don't need a history of your universe
+	Characters:
+		You may also have short character bio's to explain main characters that need explaination (who/what they are, what they need/care about), but keep it short.
+
+
+Gameplay Description:
+---------------------
+
+	Mechanics:
+		What are the core mechanics? (The things that you can DO)
+
+	Controls:
+		How do you control the action? How and when can you perform the mechanics listed?
+
+	Objectives: 
+		What are the objectives of a level?
+		What are the objectives of the game overall?
+		How do you 'win'? How do you 'lose'?
+
+	Rules:
+		What are the rules of your game?
+		Feel free to explain 'rules' before Mechanics or Objectives if that helps.
+
+	Enemies / Obstacles:
+		You may have enemies, or obstacles / traps / other ways to die.
+		Explain in general how this works here - i.e. colliding with an enemy does what? Falling down a hole does what? 
+		You will explain specific details of these things (say, each specific enemy, each specific obstacle / puzzle) in another section.
+
+	Other Systems:
+		Inventory? Level Select? Crafting? All of these are examples of other systems which might not fit into the above categories. If you have these kinds of things in your game, explain them here.
+
+Art Style
+---------
+	Overview: What is the art style of the game? What games could you reference? Is there a specific palette? Is there a particular rendering style?
+	Then provide any specific descriptions needed for the following asset categories:
+	3D Art
+		Characters
+		Environment
+		Props
+	2D Art
+		Textures
+		Particle Effects
+		Matte Paintings / Backgrounds
+	UI
+		Fonts
+		Window Styles
+		Colour Schemes
+
+Audio Style
+-----------
+	What is the audio style of the game? 
+	When would you hear music? When would you only hear effects? 
+	What kind of effects will suit your genre of game?
+	What kinds of musical instruments would you hear in the music?
+	What kinds of feelings are the sounds / music intending to create?
+
+
+Level Design
+------------
+
+	Elements
+	An overview of level design elements goes here, and if you have reusable things that go in levels (like enemy types, powerups, etc) you list them here and what they do.
+		- Enemies 
+			"Skeleton Warrior"
+				Description
+				Behaviour
+			"Skeleton Lord"
+				Description
+				Behaviour
+		- Puzzles 
+			"Align the Tiles"
+				Descripion
+				Solution
+		- Obstacles 
+			"Pop-up Spikes"
+				Description
+				Effects
+		- Powerups
+			"Health Potion"
+				Description
+				Effects
+			"Scroll: Granite Armour"
+				Description
+				Effects	
+
+		etc
+		etc
+
+	Levels
+	Then you talk about the basic design of each level that you are planning to do. Obviously pictures are the main way to do this, but you can at least describe:
+		-The overall feel of the level from an aesthetic point of view
+		-The objectives of the level (teach the player X by doing Y, then teach them Z, have them try it out.)
+		-Enemies / Puzzles / Obstacles encountered in the level (describe as best as you can, refer to the list given in the overview)
+		-Powerups or other things encountered in the level.
+		-Intended 'difficulty' of the level (compared to others)
+		-Intended play time of the level (in minutes, e.g. 10 minutes) - or a range (7-12 minutes)
+
+
+Asset List
+----------
+	3D
+		List as many 3D assets here as you can think of, like rooms, props, characters, 3d UI elements, etc. For animated items, list as many of their animations as you can. For textured items, list the 2D texture(s) as well
+		e.g.
+		"Skeleton Warrior"
+		Animations: Attack, Idle, Idle_Hurt, BeDamaged, Death
+		Textures: Bones_diffuse, Bones_spec, Bones_normal (not quite filenames, but obvious what these are).
+	2D
+		List as many other 2D assets here as you can think of like 2D UI elements (buttons, backgrounds, etc), particle effects, title screen backgrounds, etc.
+	Sound Effects
+		List as many sound effect requirements as you can think of.
+	Music
+		List the music tracks that you will need - you might not have 'artistic titles', more like 'Title Screen Music', 'Battle Music', 'Level Loading Music' etc.
+	Misc
+		Any other miscellaneous assets you might need. Vocal / Voice recordings, custom materials, etc.
+
+
+Game Flow
+---------
+
+Describe what the player sees in terms of distinct 'paths' through the game.
+For instance (Done at asciiflow.com):
+					
+  +----------------------------------------+                                      
+  |                                        |                                      
+  |                               +--------v--------+                             
+  |          +--------------------+   Title Screen  +----------+                  
+  |          |                    +----^----------+-+          |                  
+  |          |                         |          |            |                  
+  |          |               +-----+---+          |            |                  
+  |     +----v-----+    +----v-----+              |            |                  
+  |     |          |    |          |       +------v-----+      +---------+        
+  |     | New Game |    | Load Game|       |High Scores <-+    | Credits <-------+
+  |     |          |    |          |       +------+-----+ |    +-----+---+       |
+  |     |          |    |          |              |       |          |           |
+  |     +--------+-+    +---+------+              |       |          |           |
+  |              |          |                     |       |          |           |
+Quit             |          |                     |       |          |           |
+  |           +--v----------v-+            +------v---+   |    +-----v-------+   |
+  |           |               <----+       |Show High |   |    |Show Credits |   |
+  +-----------+   Play Game   |    |       |Scores    +---+    |             +---+
+              |               |    |       |          |        +-------------+    
+              +-+-----^----+--+    |       +----------+                           
+                |     |    |       |                                              
+                |     |  Death     |                                              
+        +-------v+    |    |       |                                              
+        | Pause  |    |    |       |                                              
+        | Screen +----+    --------+                                              
+        +--------+         Respawn at                                             
+                           Last Checkpoint                                        
+
+	
+First Five Minute Experience
+----------------------------
+
+Describe what the player sees and does for the first five minutes of the game. What menus will they navigate? What information will they see on screen? How will they know what to do? What will they encounter in their first five minutes?
+
+Mock Game Review
+----------------
+
+A 500 word or more 'mock review' of the game. Feel free to take a look at some online / magazine reviews to try to get a writing style, and then review this game as if it was done. Obiously you'll be going for a glowing review, but what SPECIFICALLY was good about this game? Controls? Aesthetics? Specific graphical style? Music? Feel of levels? 'Intuitiveness?', General fun (if so, WHAT felt fun?), replayability? Suitability for different audiences? Anything else you care to mention?
