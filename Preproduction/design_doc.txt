@@ -1,0 +1,321 @@
+Team Members: 
+-------------
+Lindsay Orr, Brent Minehan, Mitchell Hart,Solomon Anthony and Isaac Cuevas
+
+Overview:
+---------
+
+This game is a platformer that is aimed for people of all ages. The gameplay is very pick up and play to allow for a casual style. The game is set in Australia and is surrounded by the bogan culture here.
+
+Objectives: The objectives of the game is to explore the various level and find various collectables. There will be a story campaign for the player to go through. 
+
+Story: The Shrimp Boi starts off in the ocean swimming around and then blacks out. He starts waking up to find himself on a barbeque. He jumps off and finds a cork hat on a key chain he grabs it as the guy barbequing tries to catch him. This leads to him running through their back garden into their house. This leads to Shrimp Boi running through their house to the bathroom and he goes down the toilet. He then travels through the sewer trying to avoid its questionable residents. He finally makes it out to the beach where he make a run back to the ocean. He makes it back into the sea only to be caught again and finds himself at the start. 
+
+Characters: Shrimp Boi, BBQ guy, Seagull, Rat, Slav Crab, Cockroaches, Sheila
+
+
+Gameplay Description:
+---------------------
+
+Mechanics:
+Some of the player movement mechanics are as follows:
+-Varied running speeds: As The Legend of Shrimp Boi is played with a Xbox controller, the player will be able to increase and decrease the speed Shrimp Boi runs by moving the analogue stick on the controller left or right at different pressures. 
+-Jumping: Jumping must feel fun and snappy, not airy or floaty. The player only has a single jump in The Legend of Shrimp Boi (unlike some platformers where players can double jump)
+-Wall Jumping: While there is no double jumping in The Legend of Shrimp Boi, there is however, wall jumping. When they player comes into contact with a wall they get the option to jump off the wall and climb upwards to their desired destination, this mechanic adds a nice layer of verticality and pace to the game. 
+-Crouching: The shrimp Boi will sometimes have to make himself even smaller to squeeze into smaller passage ways to get out of harm’s way or pass through a tight fitting passage. 
+-Running Slide: If Shrimp Boi is running at full speed and the player presses the crouch button, Shrimp Boi will do a running slide Indiana jones style. This will make for great tension filled gameplay when the player has to slide into safety just before a human scoops them up for tucker. 
+-Dragging of Big Objects: For puzzle mechanics Shrimp Boi can drag around larger objects like empty beer cans or a singular thong. These objects can be used to solve environmental puzzles. 
+-Swimming: Of course a Shrimp Can swim! When the Shrimp Boi falls into water he will be able to swim around! But he might take damage depending on the liquid he is currently submerged in (ice water might eventually freeze the player, etc). 
+-Sliding: When the player makes their way to a sloped plank or a cascading pipe in a sewer they can slide down it at a high speed on a bottle cap. This adds a wacky fun element to the game to help break up all the running and jumping in the game. 
+
+Controls:
+The best way to describe the way that we want Shrimp Boi to feel when moving is smooth, and the controls should be both simple and intuitive. A player should be able to pick up our game without any prior instruction and have a basic grasp on how to play.
+
+Objectives: The objective of a level is to get through it and defeat the boss. Each level will have a timed aspect as well as a collectable aspect. Overall the objective of the game is for Shrimp Boi to go back to the ocean. Shrimp Boi has three lives, he loses one each time he touches an environmental hazard or gets hit by a boss. He can regain back his lives by finding a health pickup through the level. 
+
+Rules:The rules are simple don’t touch any environmental hazards or boss enemies and pick up health where you can. You can chose to do it in the shortest amount of time possible or collect collectables. 
+
+Enemies / Obstacles:
+The non-playable characters (NPCs) in The Legend of Shrimp Boi will come in two separate flavours. One type of NPC is the towering Human NPCs, these NPCs will be basically impossible to actually best in combat so they player must simply hide and use their wit to escape from them if the player has caught their attention. The second type of enemy in The Legend of Shrimp Boi is the smaller animal enemies, some of these enemies like Cockroaches or Slav Crabs can be bested in combat my simply jumping on their heads but there are also some enemies such as The Rat or The Seagull that can be bested by Shrimp Boi, but only by using environmental tools such as a chunk of cheese. 
+-Artificial Intelligence (AI): The Enemies in The Legend of Shrimp Boi will tend to have a “patrol” style behaviour where they will pace backwards and forwards looking for the player. Smaller enemies like Slav crabs and cockroaches will run at the shrimp Boi and try to mug the Shrimp Boi. 
+
+
+Other Systems:
+Stealth: The Bigger Enemies in The Legend of Shrimp Boi or the “boss” enemies will try to seek the Shrimp Boi out and snatch him up. Due to this the player must attempt to get behind objects before the enemy can see the player. If the player can reach a house hold item to hide behind before the AI sees the player, then the player will successfully be hidden. 
+-Attacks: When Human enemies and bigger enemies such as the rat and the seagull catch the player, it will be an instant game over because Shrimp Boi is too small to actually do anything if a bigger foe catches him. But the smaller enemies in the game deal one life worth of damage to the player on collision. This makes the smaller enemies less of a threat than the bigger “boss” enemies but still a challenge and obstacle to the player.
+
+
+Art Style:
+---------
+
+When creating the visual aesthetic of The Legend of Shrimp Boi, we decided as a team that we wanted to take heavy inspiration from games like Unravel, Little Nightmares and Little Big Planet. These games are all 3d games that have a medium level poly count for their models with an art style that is realistic but with a small stylised twist to it. We like this aspect of the games we have taken inspiration from and decided that The Legend of Shrimp boi should also feature a medium poly art style with nice lighting and high-quality textures. We want Shrimp Boi to feel like a caricature of Australian Culture. 
+
+Audio Style:
+-----------
+The audio style will be an upbeat with Australian esque elements within it. The game will have a mix of music and sound effects. There will also be voice lines in it said by various characters. There will be continues music in the background. The sound effects depends on some environmental elements (such as sausage sizzling) they will have their various effects. One of the important effects will be for damage taken to indicate to the player that they are injured. We want to create an upbeat happy atmosphere for the player to give vibrancy t the game. 
+-Speech: All the characters in The Legend of Shrimp Boi will have voiced lines, it might be as simple as “Oi mate, give me your change” or “HEY! That Prawn stole Me Snag!” but it will be a crucial part to helping the player feel immersed in the Australian culture that the game is so heavily based on. 
+
+Level Design:
+------------
+BBQ level
+- Enemies 
+			"BBQ Guy"
+				A big guy who wears a white take top and hat 
+				Tries to flatten Shrimp Boi with a spatula 
+			
+		- Puzzles 
+			"Push and pull objects"
+				Beer cans can be pushed a pulled to get over environmental hazards 
+				Push the can to a certain position to jump over environmental hazards 
+		- Obstacles 
+			"Platforming"
+				Various platforming puzzles based around environmental hazards 
+				Shrimp boi can lose his lives 
+		- Collectibles
+			"Bottle cap"
+				Collectable 
+			Collecting them all will unlock a reward
+
+Each of these elements will be reused throughout levels with the exceptions of enemies who will change into the levels theme.
+
+
+Asset List
+----------
+
+3d Asset List: (Solomon Anthony)
+(It is important to remember we are prioritising making the first stage of the game work as its own separate and polished game before we consider moving onto the next 3 stages. We would rather have a really short and sweet experience set in Australian BBQ over a half-baked long experience full of half-finished assets.)
+BBQ LEVEL	Kitchen/house LEVEL	SEWER LEVEL	BEACH LEVEL
+-Modular BBQs (3 types)
+-Sausage
+-Hamburger patty
+-Shish kabab
+-Onion slice
+-Tomato slice
+-Prawn (cooked)
+-Beer can (2 -variations)
+-Beer bottle 
+-Ice cubes
+-Esky
+-Modular Plastic table
+-Modular Wooden table (2 types)
+-tongs
+-barbeque scraper 
+-Stubby pack
+-cigarette 
+- cigarette pack
+-ash tray
+-white bread
+-hamburger bun
+-paper plate
+-salad bowl
+-cucumber slice
+-capsicum
+-bowl of chips
+-bag of chips
+-red cups
+-folding chair with cup holder
+-Bogan yobo character (3 or 4 variations)
+- gum tree (basic Background asset)
+- bush (basic Background asset)
+- White picket fence (basic Background asset)
+-Basic Australian house with tin roof (2 or 3 model variations for Background) 
+-clay pot
+-pot plant
+-small rocks (for ground)
+-grass blades (for lawn)
+-cola bottle
+-pool noodle
+-pool paddleboard
+-pool floaty
+-dog model
+-table cloth
+-picnic basket
+-lamingtons
+-pavlova. 
+-kitchen counter
+-chopping board
+-whole onions
+-carrots
+-celery
+-cutting knife
+-wooden spoon
+-toaster
+-toast
+-Australian woman (the Sheela)
+-blender
+-boiling pot of water
+-gas stove top
+-fringe
+-cupboard
+-ceramic plate
+-glass cup
+- forks and knives
+-cleaning sponge (for sink platform)
+-tea towel
+-ceiling light
+-kitchen walls and background
+-staircase going up 
+-fat cat (environment hazard
+- television set
+-table for television
+-books
+-cook books
+-toilet
+-toilet paper
+-sink
+- bathroom sink
+-red back spider? (Dunny seat boss fight?) 
+-A homeless bogan junkie 
+-crushed drink cans
+-loose paper trash
+-piles of trash
+-twigs
+-a thong
+-a rat
+-a cockroach
+- shifty crab character
+- various modular pipe pieces
+- open empty food cans
+- broken glass bottles
+-metal grate
+-hanging scum
+-Chinese takeout box
+-‘Pringle’ can
+-sand castle
+-seagull
+-toy spade
+-toy rake
+-umbrella
+-towel
+-shells
+-seaweed
+-drift wood
+-rocks
+-sunscreen
+-shirtless bogan (sun burnt).
+
+
+animated items:
+-	Walk cycle
+-	Run cycle
+-	Hit animation
+-	Slide 
+-	Jump
+-	Wall jump
+-	Opening animation 
+
+
+2D
+-	Lives counter
+-	Timer
+-	Menu
+-	Steam 
+-	Water 
+-	Light effects 
+-	Smoke
+
+	Sound Effects:
+running
+jumping
+sliding
+(dragging of heavy objects like cans across the floor)
+nature sounds
+- tree blowing
+- crickets
+- cicadas
+- magpie sounds
+- sprinker sounds
+
+Party/bbq sounds
+-people murmering
+-bbq sizzling
+-water sounds for when the player hits the water
+-sounds of things floating in the esky
+
+house sounds
+-knife chopping (make it feel big tho, the players a small shrimp, the knive chopping sounds would feel like if a giant chopped a knife near us)
+- water boiling sounds
+-toaster popping sounds
+-egg timer sound
+-tv sounds
+-woman whistling or humming while preparing food sounds
+-water tap sounds
+
+Sewer sounds
+-rat noises
+-eerie water drips
+-homeless growls
+-sketchy skittering sounds (like a cockroach or somehting)
+-muffled traffic sounds for when the player passes opening to the street
+-buzzing fly sounds
+
+	Music
+-	Menu
+-	Opening
+-	BBQ
+-	Sewer 
+-	House
+-	Beach
+-	Ocean
+
+	Misc
+Voice recordings:
+-	What smells good
+-	I smell good 
+-	Yeah nah 
+-	ahhhhhhhhhhhhhh
+
+Game Flow
+---------
+  +----------------------------------------+                                      
+  |                                        |                                      
+  |                               +--------v--------+                             
+  |          +--------------------+   Title Screen  +----------+                  
+  |          |                    +----^----------+-+          |                  
+  |          |                         |          |            |                  
+  |          |               +-----+---+          |            |                  
+  |     +----v-----+    +----v-----+              |            |                  
+  |     |          |    |          |       +------v-----+      +---------+        
+  |     | New Game |    | Load Game|       |High Scores and	credits
+ <-+    | Credits <-------+			collectables
+  |     |          |    |          |       +------+-----+ |    +-----+---+       |
+  |     |          |    |          |              |       |          |           |
+  |     +--------+-+    +---+------+              |       |          |           |
+  |              |          |                     |       |          |           |
+Quit             |          |                     |       |          |           |
+  |           +--v----------v-+            +------v---+   |    +-----v-------+   |
+  |           |               <----+       |Show High |   |    |Show Credits |   |
+  +-----------+   Play Game   |    |       |Scores    +---+    |             +---+
+              |               |    |       |          |   |     +-------------+    
+              +-+-----^----+--+    |       +----------+   |                        
+                |     |    |       |                      |                        
+                |     |  Death     |                      |                        
+        +-------v+    |    |       |              -------------                                
+        | Pause  |    |    |       |              | collectables|                   
+        | Screen +----+    --------+              |             |                   
+        +--------+         Respawn at             |             |                   
+                           Level start            --------------                            
+
+
+First Five Minute Experience
+----------------------------
+The game will open with the usual made with unity logo then the Machine Studio logo. It will show the title screen with the Shrimp Boi on the right and the menu options to the left. The image used on the screen may change dependent of which level the player is on. This image will show active game play from various perspectives. The options will read play, controls, credits and exit. The player may check the controls before they start, it will show a simple screen with the pc and the controller's buttons mapped. There will not be an option to change them. The player then can go back to the main screen and click play or credits. Credits will show everyone’s contribution to making the game. The opening of the game will then start as we see the Shrimp Boi in the ocean looking around and wondering what is going on then the screen will fade to black. Then the player will hear a thud and then will head the character's voice calling out to his friends. He will then be wondering in his head what smell good. The lid of the barbeque opens, and he jumps off the barbeque screaming ‘I smell good!’ and starts to run away from the person barbequing him. He then will pick up a hat from a keychain. This is where the gameplay starts. 
+The screen will prompt the player of the controls again and the player is free to move. This will put the player in the first level of the game the back garden. The gameplay is a 2d side scroller so that the shrimp will travel from left to right. In the top left-hand corner of the screen will have a lives counter with three lives and to the left a timer. Throughout the game there will be hidden collectible bottle caps for the player can collect collecting all of caps will unlock a reward when collected. Shrimp Boi will jump off a barbeque and start running across a picnic table. This will involve various platforming sections which will mainly require simple jumps. The next section in this level will have a timed platforming jumps across another barbeque from patty to patty. The next section in the level is the ice cooler where there will be platforms bobbing in the water. 
+At the edge of the cooler there is a slide where Shrimp Boi can slide down on a bottle cap. This will lead to a new gameplay mechanic being introduced which is wall jumping. The player must jump up the wall to get to the top. This will lead to the next platforming section through a table with a salad and many other food items. The player will have to traverse through the various foods where there will be alternative path for collectibles. Another mechanic that will be through the levels is wall jumping which will have its section later in the level.  
+
+
+
+
+
+Mock Game Review
+----------------
+The Legend of Shrimp Boi is a small title by Machine Studios that follows the titular character of the Shrimp Boi. Set in Australia the game takes heavy influence from the Bogan culture. With its very tongue in cheek attitude it offers a fun game for all ages. In all it ties a fun light-hearted look with a traditional platformer. 
+We follow our character of Shrimp Boi through his adventure to go back home from a barbeque to the ocean. The opening set the scene well where we see Shrimp Boi swimming around in the sea and then he gets knocked out. He wakes to find himself of a barbeque introducing our gameplay. This is played as comedic value and informs the gameplay nicely. The story remains very simple throughout the game and has a nice little twist at the end. While designed for all ages there are a few jokes that are aimed at an older audience however, will go over the heads of kids. Although a little simplistic the story suits the game well and ties into the theme nicely. 
+The gameplay revolves around mainly platforming challenges with a few puzzles. While very simplistic the game does feel repetitive and new environments giving a sense of freshness. The game also dabbles with a few boss fights. Although Shrimp Boi cannot attack or defend himself he must outsmart the boss. This ties in well as he is not a powerhouse of a shrimp rather one who is an average bloke on his way home. 
+The game has a very cartoony realism a little like the game Unravelled. Each area is very distinct with each stage having a good variance between them. Platforming elements are tied nicely in with the art design with the Shrimp Boi nicely sized with the world. He can travel through various unusual obstacles to follow his adventure and to find hidden collectibles.  
+Like all games there is positive and negative qualities, and Shrimp Boi is no exception. It has a wonderful soundtrack that is fun, and light-hearted and fits the mood of the game well. It does not get too repetitive and has some nice voice acting. Its pick up and play style works well for a wide and diverse audience. However, some of the jokes may offend some people of a more sensitive disposition. The story works well for the simple premise, and it flows well, working with the simple gameplay to create a fun little casual game. 
+Overall the game works for a wide audience who is familiar with Australian culture and can appreciate some untasteful jokes. It’s easy pickup and play style works simply and smoothly flowing well throughout the game. In all a fun little adventure. 
+
+
+
+
