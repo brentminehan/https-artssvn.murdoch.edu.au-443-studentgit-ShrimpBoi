@@ -1,0 +1,217 @@
+### exported: Fri Sep  7 10:05:23 2018
+### from:     Arnold 5.0.1.0 [8ea063c7] windows icc-17.0.2 oiio-1.7.15 osl-1.9.0 vdb-4.0.0 clm-1.0.3.513 rlm-12.2.2 2017/06/27 18:48:44
+### host app: MtoA 2.0.1 2ad5768c (master) Maya 2018
+
+
+
+options
+{
+ AA_samples 3
+ outputs "RGBA RGBA defaultArnoldFilter@gaussian_filter defaultArnoldDriver@driver_exr.RGBA"
+ xres 960
+ yres 540
+ texture_per_file_stats on
+ texture_searchpath "D:/WAM BAM/WAMBAM_SCene/sourceimages"
+ texture_automip off
+ texture_specular_blur 0
+ camera "perspShape"
+ color_manager "defaultColorMgtGlobals"
+ procedural_searchpath "D:/WAM BAM/WAMBAM_SCene/"
+ GI_diffuse_depth 1
+ GI_specular_depth 1
+ GI_transmission_depth 8
+ declare frame constant FLOAT
+ frame 1
+ declare render_layer constant STRING
+ render_layer "defaultRenderLayer"
+ declare fps constant FLOAT
+ fps 24
+}
+
+gaussian_filter
+{
+ name defaultArnoldFilter@gaussian_filter
+ width 2
+}
+
+driver_exr
+{
+ name defaultArnoldDriver@driver_exr.RGBA
+ filename "D:/WAM BAM/WAMBAM_SCene/images/untitled.exr"
+ compression "zip"
+ half_precision off
+ tiled off
+ color_space ""
+ preserve_layer_name off
+ autocrop off
+ append off
+}
+
+color_manager_syncolor
+{
+ name defaultColorMgtGlobals
+ native_catalog_path "C:/Program Files/Autodesk/Maya2017/synColor"
+ custom_catalog_path "C:/Users/user/Documents/maya/synColor/Shared/"
+ rendering_color_space "scene-linear Rec 709/sRGB"
+}
+
+polymesh
+{
+ name Table_M:pCubeShape1
+ visibility 255
+ sidedness 255
+ receive_shadows on
+ self_shadows on
+ matrix
+ -40 0 -4.8985872e-15 0
+ 0 1 0 0
+ 1.46957612e-15 0 -12 0
+ 0 0 0 1
+ shader "initialShadingGroup"
+ opaque on
+ matte off
+ id 3327902364
+ nsides 12 1 b85UINT
+B!%<_l4$$$$'
+ vidxs 48 1 b85UINT
+B%s/5E'6jtO'RUCV'S-gR)1r*N&pFqU&qgpZ&VUpZ&;CpW$?[)S$$-lR$&K(I
+ nidxs 48 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk0
+ uvidxs 48 1 b85UINT
+B'm'qP&pb(U'RLF['SI-^*/4Z[&9nnZ&;M$[%YtpZ(5`ub$??xX$v*>]$xkaR
+ vlist 24 1 b85VECTOR
+aDq998I<\-aDq9989+]c8I<\-aDq99aDq99aA;anaDq9989+]caA;anaDq99a?_NRaA;anaDq9983ns'aA;anaDq99aA33>aA;anaDq9985BWhaA;anaDq9985BWhachAEaDq9983ns'achAEaDq99aA33>achADaDq99a?_NRachADaDq99aDq99aA;an89+]uaA33>aA;aT89+]UaA33>achAA89+]Ua?_NRachAA89+]?a?_NRaA;aM89+]?83ns'aA;aM89+]?83ns'achAA89+]?85BWhachAB89+]U85BWhaA;aT89+]U89+]caA;an89+]u89+]c8I<\-89+]uaDq998I<\-89+]u
+ nlist 48 1 b85VECTOR
+5VQr^aRT=d4vKT`5VQr^aRT=c4vKT`5VQr^aRT=d4vKTb5VQr^aRT=d4vKTbaRT=dzzaRT=dzzaRT=dzzaRT=dzz2MuCUaRT=d50p_D2MuCTaRT=d50p_B2MuCTaRT=d50p_B2MuCTaRT=d50p_Byzz8Fcb8zzyzzy!$$$$$$$$$'aRT=d550()zaRT=d550()zaRT=d550()zaRT=d550()aRT=dzzaRT=czzaRT=dzzaRT=dzz^]i(MaRT=d56]Cg^]i(MaRT=d56]Cg^]i(NaRT=d56]Ch^]i(MaRT=d56]Cgyzzyzzyzzyzz^bBN4aRT=d4vKTb^bBN4aRT=c4vKT`^bBN4aRT=d4vKT`^bBN4aRT=d4vKTbyzzyzzyzzy!$$$$$$$$$'yzzyzzyzzyzaRT=dzzaRT=dzzaRT=dzzaRT=dzz
+ uvlist 28 1 b85VECTOR2
+8Dp9]8F<a%8D'oT8F<a%7g=(r8F<a%7miY&8F<a%7LhWZ8?IBn7cSCf8?IBn7oAO_8?IBm7fr7o8?IBm8BocV8?IBm8AgaN8?IBm8@Eok8?IBm8AJHU8?IBm7K+q&8F<a%8FHDw8F<a%7g=(p8?c:F8Bp8:88Zs-7K+q&8?c:F8Agih88Zs.8AJH]88Zs/8@Ep%88Zs/7oAQM88Zs/7fr8288Zs/7cSDY88Zs.7LthI88Zs.8FHDw8?c:F8Dp9]8?c:F8D'oT8?c:F7miY&8?c:F
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare mtoa_shading_groups constant ARRAY NODE
+ mtoa_shading_groups "initialShadingGroup"
+}
+
+polymesh
+{
+ name Table_End_L:pCube5Shape
+ visibility 255
+ sidedness 255
+ receive_shadows on
+ self_shadows on
+ matrix
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ shader "initialShadingGroup"
+ opaque on
+ matte off
+ id 1206295485
+ nsides 35 1 b85UINT
+B!%<_l4$$$$,%<_l
+ vidxs 140 1 b85UINT
+B$ZuK*%<ho2'RU4J$vMr4%<MT0*.woj)hx,p*f1Z%'n6FC(P)UI(k)I@)1rHb)heT\)MSZd*eXl`*Jb/g+GU>c,E3kE/<h0M+c@G=,`a.J-&`tH.?bXA.[2$J-]oUQ/<UjH0:=Du31q_(/XIum0Uj]%0pjMx24l1q2P;S%1S$/,31_Cx
+ nidxs 140 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk04JX^@5c?QP7'&D`8?b7p9XI++:q/s;<4kfK=MRY[>f9Lk@)u@&9t+9_=i4J&B$Nxs?,p=6Ct)nVE7eafFPLTvGi3H1I,o;ABw%5%Fl.EAK'Ht9H/j8Q
+ uvidxs 140 1 b85UINT
+B%s9(m&9Ix6*dwQf$v2N*&9nA:,Duo$,)m7u,``q6.ZtmM/sRW]/<_-S'RU4J(k<'Z'86vZ0UN9=*.woj+G^c%1n5wu31qk04JX^@1T*(624Z/(0q1,818[(H7'%xL31;Y48?b7p9XI++:q/s;8%V=18[1Cx7B]A37_2=C=MR8G9Wgn/
+ shidxs 35 1 b85BYTE
+!$$$$$$$$$,$$$$
+ vlist 48 1 b85VECTOR
+b7Xf1aA;an9*''E9+h5[aA;an9*''Eb7Xf18I<\-9*''E9+h5[8I<\-9*''Eb7Xf18I<\-8h\6d9+h5[8I<\-8h\6db7Xf1aA;an8h\6d9+h5[aA;an8h\6db4C)+aA;an8h\6d9(RMUaA;an8h\6d9(RMUaA;a@9%QS<b4C)+aA;a@9%QS<b5<WiaA;aI9'@gob5<WiaA;an8h\6d9)L'>aA;an8h\6d9)L'>aA;aJ9'@go9)L'>achAE8h\6d9)L'>achAA9'@go9(RMUachA?9%QS<9(RMUachAE8h\6db5<WiachA@9'@gob4C)+achA?9%QS<b5<WiachAD8h\6db4C)+achAD8h\6db3wOlbA@Gn9%$YKb0\)BbA@Gn9%$YKb4B1LaAj+u9%Pqgb0/f)aAj+u9%Pqgb4B1LaAj+u8v1oZb0/f)aAj+u8v1oZb3wOlbA@Gn8v^2vb0\)BbA@Gn8v^2vb4B1Lb8$NC9%Pqgb0/f)b8$NC9%Pqgb0/f)b8$NC8v1oZb4B1Lb8$NC8v1oZ9$kMpbA@Gn9%$YK9(1tEbA@Gn9%$YK9$?5UaAj+u9%Pqg9(QUwaAj+u9%Pqg9$?5UaAj+u8v1oZ9(QUwaAj+u8v1oZ9$kMpbA@Gn8v^2v9(1tEbA@Gn8v^2v9$?5Ub8$NC9%Pqg9(QUwb8$NC9%Pqg9(QUwb8$NC8v1oZ9$?5Ub8$NC8v1oZ
+ nlist 124 1 b85VECTOR
+zzyzzyzzyzzyzyzzyzzyzzyzzaRT=d4ehukzaRT=d4ehukzaRT=d4ehukzaRT=d4ehukyzzyzzyzzyzzaRT=dzzaRT=dzzaRT=dzzaRT=dzz^'cl2aRT=d4a(uL^'cl1aRT=c4a(uK^'cl1aRT=d4a(uK^'cl2aRT=d4a(uL]&qevaRT=d^2*rr]&qevaRT=d^2*rr]&qewaRT=d^2*rs]&qewaRT=d^2*rs4f9tuaRT=c4a(uG4f9twaRT=d4a(uG4f9twaRT=d4a(uG4f9txaRT=d4a(uG4lh'[aRT=d4Mw_14lh'XaRT=c4Mw_04lh'XaRT=c4Mw_04lh'[aRT=d4Mw_1]wr2$aRT=c4Mw_/]wr2%aRT=d4Mw_0]wr2$aRT=d4Mw_0]wr2$aRT=c4Mw_/\P:H&aRT=c^/JJ@\P:H&aRT=c^/JJ@\P:H%aRT=c^/JJ@\P:H%aRT=c^/JJ@8Fcb8zzyzzyzzyzzaRT=dzzaRT=dzzaRT=dzzaRT=dzz4Oj+;z8Fcb84Oj+;z8Fcb84Oj+;z8Fcb84Oj+;z8Fcb8zzaRT=dzzaRT=dzzaRT=dzzaRT=daRT=dzzaRT=dzzaRT=dzzaRT=czzyzzyzzyzzy!$$$$$$$$$'`IuE&8FcZ@z`IuE'8FcZAzzyzzyzzaRT=dzzaRT=dz`IuE&aRT5lz`IuE%aRT5kzaRT=dzzaRT=dzzaRT=dzzaRT=dz8FcZ?`IuCVz8FcZ?`IuCVzyzzyzzaRT5j`IuDrzaRT5j`IuDrzaRT=dzzaRT=d!$$$$$$$$$'``B7+8Fbj@z``B7+8Fbj@8Fbj@``B4qz8Fbj@``B4qzz``B7&aRSEkz``B7(aRSEkaRSEk``B6wzaRSEk``B6wzz`IuE-8FcZ@z`IuE-8FcZAzzyzzyzzaRT=dzzaRT=dz`IuE+aRT5lz`IuE*aRT5kzaRT=dzzaRT=dzzaRT=dzzaRT=dz8FcZ?`IuCHz8FcZ?`IuCHzyzzyzzaRT5j`IuD^zaRT5j`IuD^zaRT=dzzaRT=d!$$$$$$$$$'``B768Fbj@z``B758Fbj@8Fbj@``B4\z8Fbj@``B4\zz``B72aRSEkz``B72aRSEkaRSEk``B6YzaRSEk``B6Yz
+ uvlist 80 1 b85VECTOR2
+8Dp9]8?eUQ8Dp9]8FRhR8D'oT8FRhS8D'oT8?eX;7g=(u8FRhS7g=(m8?eZc7miY&8?e]+7miY&8FRhR7DP8Q84C[S7wN2H84De=7wN2R86\Nt7Ct%I86\Nw8%GfF8*>BR8%Ge983_D?7vLFY83_DD7vLFi8*>BN8B=NW84Ex;8FS4784G-d8FRGf86\Nq8B<%U86\Nn8AVWb83_E38AVWv8*>Cm8BUJP8*>Jn8BUJD83_I<7wN2R8<0Ys8$p>*87[208$p>*8<0Ys8A]0Z87\>]8B;K(8<0Yr8A\[\8<0Yr7miY&8>q3Q7miY&87,De7vIiE87,De7vIiE8=K^c8D'oT8>pxk8BN(R8=K^c8D'oT87,De8BN(R87,De8%Gi+8&Ken8AVX[8&KfY85C)i8:vT785C)i89g=08@TL&89g=18@TL&8:vT98@TL)8<0kC8@TL*8=@-I85C)Y8=@-F85C)a8<0k>8*obA8<$FT8'Dhe8;xt38'Dhg8;.K<8*obE8;-xq85C)i88/CF8@TL&88/CL8*obI8:jVq8*obI89s:L8*obE89[?i8*obE88G=u8*oa48=40)8*oa68<<hX8<pPg7mO:P8<pPg7c&\P8F8Y'7c&\\8F8Y'7mO:_8F8Y*7tm$\8F8Y+8$U+w8<pP_8$U+k8<pPc7tm$K86Nwi7t;;N84d&&7t9Gu84d&'7naGt86Nwk7n]`v8<pPg7Grsi8F8Y'7Gruw86Nwm7lDOv86Nwm7e4kL86Nwk7`f2386Nwk7MC0c86Nw88$%6K86Nw97uGn_
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare mtoa_shading_groups constant ARRAY NODE
+ mtoa_shading_groups "initialShadingGroup"
+}
+
+polymesh
+{
+ name Table_End_R:pCube1Shape
+ visibility 255
+ sidedness 255
+ receive_shadows on
+ self_shadows on
+ matrix
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ shader "initialShadingGroup"
+ opaque on
+ matte off
+ id 3069495178
+ nsides 35 1 b85UINT
+B!%<_l4$$$$,%<_l
+ vidxs 140 1 b85UINT
+B$ZuK*%<ho2'RU4J$vMr4%<MT0*.woj)hx,p*f1Z%'n6FC(P)UI(k)I@)1rHb)heT\)MSZd*eXl`*Jb/g+GU>c,E3kE/<h0M+c@G=,`a.J-&`tH.?bXA.[2$J-]oUQ/<UjH0:=Du31q_(/XIum0Uj]%0pjMx24l1q2P;S%1S$/,31_Cx
+ nidxs 140 1 b85UINT
+B$v2N*&9nA:'RU4J(k<'Z*.woj+G^c%,`EV5.$,IE/<h<U0UO/e1n5wu31qk04JX^@5c?QP7'&D`8?b7p9XI++:q/s;<4kfK=MRY[>f9Lk@)u@&9t+9_=i4J&B$Nxs?,p=6Ct)nVE7eafFPLTvGi3H1I,o;ABw%5%Fl.EAK'Ht9H/j8Q
+ uvidxs 140 1 b85UINT
+B%s9(m&9Ix6*dwQf$v2N*&9nA:,Duo$,)m7u,``q6.ZtmM/sRW]/<_-S'RU4J(k<'Z'86vZ0UN9=*.woj+G^c%1n5wu31qk04JX^@1T*(624Z/(0q1,818[(H7'%xL31;Y48?b7p9XI++:q/s;8%V=18[1Cx7B]A37_2=C=MR8G9Wgn/
+ shidxs 35 1 b85BYTE
+!$$$$$$$$$,$$$$
+ vlist 48 1 b85VECTOR
+9+h5[aA;anb5TNKb7Xf1aA;anb5TNK9+h5[8I<\-b5TNKb7Xf18I<\-b5TNK9+h5[8I<\-asAALb7Xf18I<\-asAAL9+h5[aA;anasAALb7Xf1aA;anasAAL9(RMUaA;anasAALb4C)+aA;anasAALb4C)+aA;a@b0fpp9(RMUaA;a@b0fpp9)L'>aA;aIb2V0N9)L'>aA;anasAALb5<WiaA;anasAALb5<WiaA;aJb2V0Nb5<WiachAEasAALb5<WiachAAb2V0Nb4C)+achA?b0fppb4C)+achAEasAAL9)L'>achA@b2V0N9(RMUachA?b0fpp9)L'>achADasAAL9(RMUachADasAALb0\)FbA@Gnb09w*b3wOpbA@Gnb09w*b0/f+aAj+ub0f:Fb4B1MaAj+ub0f:Fb0/f+aAj+ub,G89b4B1MaAj+ub,G89b0\)FbA@Gnb,sPUb3wOpbA@Gnb,sPUb0/f+b8$NCb0f:Fb4B1Mb8$NCb0f:Fb4B1Mb8$NCb,G89b0/f+b8$NCb,G899(1tAbA@Gnb09w*9$kMlbA@Gnb09w*9(QUvaAj+ub0f:F9$?5SaAj+ub0f:F9(QUvaAj+ub,G899$?5SaAj+ub,G899(1tAbA@Gnb,sPU9$kMlbA@Gnb,sPU9(QUvb8$NCb0f:F9$?5Sb8$NCb0f:F9$?5Sb8$NCb,G899(QUvb8$NCb,G89
+ nlist 124 1 b85VECTOR
+zzaRT=dzzaRT=dzzaRT=dzzaRT=dzyzzyzzyzzyzzaRT=d]qYQAzaRT=d]qYQAzaRT=d]qYQAzaRT=d]qYQAaRT=dzzaRT=dzzaRT=dzzaRT=dzzyzzyzzyzzyzz4ps;VaRT=d]lnPw4ps;WaRT=c]lnPv4ps;WaRT=d]lnPv4ps;VaRT=d]lnPw3p,5KaRT=d5&:BG3p,5KaRT=d5&:BG3p,5LaRT=d5&:BH3p,5LaRT=d5&:BH]r*PHaRT=c]lnPr]r*PIaRT=d]lnPr]r*PIaRT=d]lnPr]r*PIaRT=d]lnPr]xXX4aRT=d]Yh:^]xXX4aRT=d]Yh:^]xXX4aRT=d]Yh:^]xXX4aRT=d]Yh:^4l,VWaRT=d]Yh:a4l,VYaRT=d]Yh:b4l,VXaRT=d]Yh:b4l,VWaRT=d]Yh:a3DIlFaRT=d4xYn`3DIlFaRT=d4xYn`3DIlGaRT=d4xYna3DIlGaRT=d4xYnaaRT=dzzaRT=dzzaRT=dzzaRT=dzzyzzyzzyzzyzz][Z[fzaRT=c][Z[fzaRT=c][Z[fzaRT=c][Z[fzaRT=czzyzzyzzyzzyyzzyzzyzz8Fcb8zzaRT=dzzaRT=dzzaRT=dzzaRT=d!$$$$$$$$$'`IuE-aRT5kz`IuE-aRT5lzzaRT=dzzaRT=dzzyzzyz`IuE+8FcZAz`IuE*8FcZ@zaRT=dzzaRT=dzzaRT=dzzaRT=dzaRT5j`IuCIzaRT5j`IuCIzaRT=dzzaRT=dzz8FcZ?`IuD_z8FcZ?`IuD_zyzzy!$$$$$$$$$'``B76aRSEkz``B75aRSEkaRSEk``B4azaRSEk``B4azz``B728Fbj@z``B728Fbj@8Fbj@``B6]z8Fbj@``B6]zz`IuE&aRT5kz`IuE'aRT5lzzaRT=dzzaRT=dzzyzzyz`IuE&8FcZAz`IuE%8FcZ@zaRT=dzzaRT=dzzaRT=dzzaRT=dzaRT5j`IuCVzaRT5j`IuCVzaRT=dzzaRT=dzz8FcZ?`IuDrz8FcZ?`IuDrzyzzy!$$$$$$$$$'``B7+aRSEkz``B7+aRSEkaRSEk``B4tzaRSEk``B4tzz``B7&8Fbj@z``B7(8Fbj@8Fbj@``B7%z8Fbj@``B7%z
+ uvlist 80 1 b85VECTOR2
+8Dp9]8?eUQ8Dp9]8FRhR8D'oT8FRhS8D'oT8?eX;7g=(u8FRhS7g=(m8?eZc7miY&8?e]+7miY&8FRhR7DP8Q84C[S7wN2H84De=7wN2R86\Nt7Ct%I86\Nw8%GfF8*>BR8%Ge983_D?7vLFY83_DD7vLFi8*>BN8B=NW84Ex;8FS4784G-d8FRGf86\Nq8B<%U86\Nn8AVWb83_E38AVWv8*>Cm8BUJP8*>Jn8BUJD83_I<7wN2R8<0Ys8$p>*87[208$p>*8<0Ys8A]0Z87\>]8B;K(8<0Yr8A\[\8<0Yr7miY&8>q3Q7miY&87,De7vIiE87,De7vIiE8=K^c8D'oT8>pxk8BN(R8=K^c8D'oT87,De8BN(R87,De8%Gi+8&Ken8AVX[8&KfY8<pPg7mO:P8<pPg7c&\P8F8Y'7c&\\8F8Y'7mO:_8F8Y*7tm$\8F8Y+8$U+w8<pP_8$U+k8<pPc7tm$K86Nwi7t;;N84d&&7t9Gu84d&'7naGt86Nwk7n]`v8<pPg7Grsi8F8Y'7Gruw86Nwm7lDOv86Nwm7e4kL86Nwk7`f2386Nwk7MC0c86Nw88$%6K86Nw97uGn_85C)i8:vT785C)i89g=08@TL&89g=18@TL&8:vT98@TL)8<0kC8@TL*8=@-I85C)Y8=@-F85C)a8<0k>8*obA8<$FT8'Dhe8;xt38'Dhg8;.K<8*obE8;-xq85C)i88/CF8@TL&88/CL8*obI8:jVq8*obI89s:L8*obE89[?i8*obE88G=u8*oa48=40)8*oa68<<hX
+ smoothing on
+ step_size 0
+ volume_padding 0
+ declare mtoa_shading_groups constant ARRAY NODE
+ mtoa_shading_groups "initialShadingGroup"
+}
+
+MayaShadingEngine
+{
+ name initialShadingGroup
+ beauty lambert1
+}
+
+lambert
+{
+ name lambert1
+ Kd 0.800000012
+ Kd_color 0.5 0.5 0.5
+ opacity 1 1 1
+}
+
+persp_camera
+{
+ name perspShape
+ matrix
+ -0.0801989213 0 0.996778905 0
+ 0.485351741 0.873446465 0.0390504748 0
+ -0.870633006 0.486920148 -0.0700494722 0
+ -132.531509 77.1664886 -11.6410341 1
+ near_clip 0.100000001
+ far_clip 10000
+ screen_window_min -1 -1
+ screen_window_max 1 1
+ shutter_start 0
+ shutter_end 0
+ shutter_type "box"
+ rolling_shutter "off"
+ rolling_shutter_duration 0
+ motion_start 0
+ motion_end 0
+ exposure 0
+ fov 54.4322243
+ focus_distance 1
+ aperture_size 0
+ aperture_blades 0
+ aperture_rotation 0
+ aperture_blade_curvature 0
+ aperture_aspect_ratio 1
+ uv_remap 0 0 0 0
+ radial_distortion 0
+}
+
